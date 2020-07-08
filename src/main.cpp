@@ -73,6 +73,6 @@ void loop() {
   horaAct["Sumatoria"]=suma;
   serializeJson(horaAct,Serial);
   Serial.println("");
-  delay(3000);
+  delay(2000);
 }
 
